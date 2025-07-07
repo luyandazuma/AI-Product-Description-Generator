@@ -10,16 +10,21 @@ h1 {
 }
 
 .container {
-  margin: 50px auto;
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   justify-content: space-evenly;
+  border-radius: 10px;
+  background-color: #e7decc98;
+  max-width: 850px;
+  width: 100%;
 }
 
 .sub-label {
   display: block;
   text-align: left;
   max-width: 380px;
-  margin: 0 auto 5px auto;
+  margin: 0 auto 10px auto;
   font-weight: bold;
 }
 
@@ -38,10 +43,11 @@ h1 {
 }
 
 .generated-description {
+  position: relative;
+  top: -20px;
 }
 
 .button {
-  text-align: center;
 }
 
 footer {
