@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
 }
 
 h1 {
@@ -14,8 +15,6 @@ h1 {
   padding: 20px;
   display: flex;
   justify-content: space-evenly;
-  border-radius: 10px;
-  background-color: #e7decc98;
   max-width: 850px;
   width: 100%;
 }
@@ -34,12 +33,13 @@ h1 {
   text-align: left;
   margin: 10px auto;
   width: 350px;
-  height: 45px;
   max-width: 90%;
+  height: 100px;
   padding: 10px;
   font-size: 15px;
-  border: 1px solid #5d88b6;
+  border: 1px solid #368636;
   border-radius: 10px;
+  resize: vertical;
 }
 
 .generated-description {
@@ -48,6 +48,22 @@ h1 {
 }
 
 .button {
+  margin: 20px auto;
+  padding: 13px;
+  width: 35%;
+  border-radius: 15px;
+  border: none;
+  background-color: #3c883c;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #207420;
+  cursor: pointer;
 }
 
 footer {
@@ -57,4 +73,5 @@ footer {
 
 a {
   text-decoration: none;
+  color: #368636;
 }
