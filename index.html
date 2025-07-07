@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Product Description Generator</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -13,9 +19,7 @@
     <main>
       <div class="container">
         <form class="form-group">
-          <label class="product-name-label" for="product-name"
-            >Product Name</label
-          >
+          <label class="sub-label" for="product-name">Product Name</label>
           <input
             type="text"
             class="product-name"
@@ -24,18 +28,16 @@
             autofocus
           />
 
-          <label class="product-details-label" for="product-details"
-            >Product Details</label
-          >
+          <label class="sub-label" for="product-details">Product Details</label>
           <input
             type="text"
             class="product-details"
-            placeholder="Enter product details (e.g. colour, measurements, make, features, target audience)"
+            placeholder="Enter product details"
             required
             autofocus
           />
 
-          <input type="submit" class="button" value="Generate" />
+          <input type="submit" class="button" value="GENERATE" />
         </form>
         <div class="generated-description">
           <h2>Generated Product Description</h2>
