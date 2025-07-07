@@ -7,8 +7,43 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+      <h1>AI Description Generator</h1>
+    </header>
+    <main>
+      <div class="form-group">
+        <form>
+          <label class="product-name-label" for="product-name"
+            >Product Name</label
+          >
+          <input
+            type="text"
+            class="product-name"
+            placeholder="Enter the product name"
+            required
+            autofocus
+          />
+
+          <label class="product-details-label" for="product-details"
+            >Product Details</label
+          >
+          <input
+            type="text"
+            class="product-details"
+            placeholder="Enter product details"
+            required
+            autofocus
+          />
+
+          <input type="submit" class="button" value="Generate" />
+
+          <label class="product-description-label" for="product-description"
+            >Generated product description</label
+          >
+          <input type="text" class="product-description" />
+        </form>
+      </div>
+    </main>
     <footer>
       This project was coded by
       <a href="https://github.com/luyandazuma" target="_blank">Luyanda Zuma</a>,
