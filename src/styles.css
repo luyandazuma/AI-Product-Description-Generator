@@ -44,7 +44,16 @@ h1 {
 
 .generated-description {
   position: relative;
-  top: -20px;
+  top: -23px;
+}
+
+.generated-description p {
+  line-height: 1.5;
+  font-size: 16px;
+  padding: 10px;
+  border-left: 3px solid #368636;
+  border-radius: 10px;
+  background-color: #cdddcd;
 }
 
 .button {
@@ -69,6 +78,7 @@ h1 {
 footer {
   text-align: center;
   font-size: 14px;
+  padding: 15px;
 }
 
 a {
