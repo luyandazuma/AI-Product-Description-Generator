@@ -50,7 +50,8 @@ h1 {
 .generated-description p {
   line-height: 1.5;
   font-size: 16px;
-  padding: 10px;
+  padding: 0px 10px auto;
+  margin-left: 15px;
   border-left: 3px solid #368636;
   border-radius: 10px;
   background-color: #cdddcd;
