@@ -3,6 +3,10 @@ productFormElement.addEventListener("submit", generateDescription);
 
 function generateDescription(event) {
   event.preventDefault();
-  let descriptionElement = document.querySelector("#description");
-  descriptionElement.innerHTML = `Brown wooden truck toy...`;
+  new Typewriter("#description", {
+    strings: "Brown wooden truck toy...",
+    autoStart: true,
+    delay: 50,
+    cursor: "",
+  });
 }
