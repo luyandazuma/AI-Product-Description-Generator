@@ -18,8 +18,8 @@
     </header>
     <main>
       <div class="container">
-        <form class="form-group">
-          <label class="sub-label" for="product-name">Product Name</label>
+        <form id="form-group">
+          <label class="sub-label">Product Name</label>
           <textarea
             class="product-name"
             placeholder="Wooden truck toy"
@@ -27,7 +27,7 @@
             autofocus
           ></textarea>
 
-          <label class="sub-label" for="product-details">Product Details</label>
+          <label class="sub-label">Product Details</label>
           <textarea
             class="product-details"
             placeholder="Brown polished wood, handmade, 50cm, truck toy, light weight, for children under 12"
@@ -35,12 +35,12 @@
             autofocus
           ></textarea>
 
-          <input type="submit" class="button" value="GENERATE" />
+          <input type="submit" class="button" id="button" value="GENERATE" />
         </form>
 
         <div class="generated-description">
           <h3>Generated Product Description</h3>
-          <p>Brown wooden truck toy...</p>
+          <p id="description"></p>
         </div>
       </div>
     </main>
