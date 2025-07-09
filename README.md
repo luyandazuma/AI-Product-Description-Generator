@@ -9,7 +9,7 @@ The AI Product Description Generator is web-based tool that creates engaging pro
 
 # Preview
 
-<img src="src/aidescriptiongeneratoroverview.JPG" width="500" height="400"/>
+<img src="src/aidescriptiongeneratoroverview.JPG"/>
 
 # Tech Stack
 
@@ -31,7 +31,7 @@ Clean and friendly UI.
 
 Structured the layout using HTML and clean, centered form interface.
 Styled UI with custom CSS using flexbox for layout and a typewrite JavaScript plugin from GitHub.
-Connected to the AI API using axois to send prompt data and receive a response of a generated product description using JavaScript.
+Connected to the AI API using axios to send prompt data and receive a response of a generated product description using JavaScript.
 Added error handling to manage empty inputs.
 Deployed the web-app using Netlify.
 
