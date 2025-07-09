@@ -1,7 +1,7 @@
 # Project
 
 Project Name: AI Product Description Generator <br/>
-<a href="https://aiproductdescriptiongeneratorls.netlify.app" target="_blank">Live demo</a> hosted on Netlify.
+<a href="https://aiproductdescriptiongeneratorls.netlify.app" target="_blank" >Live demo</a> hosted on Netlify.
 
 # Overview
 
@@ -9,7 +9,16 @@ The AI Product Description Generator is web-based tool that creates engaging pro
 
 # Preview
 
+<img src="src/aidescriptiongeneratoroverview.JPG" width="410" height="360"/>
+
 # Tech Stack
+
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript (ES6+)</li>
+<li>AI API - shecodes.io AI API</li>
+</ul>
 
 # How I Built It
 
