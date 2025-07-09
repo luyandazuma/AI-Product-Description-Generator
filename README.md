@@ -1,7 +1,7 @@
 # Project
 
 Project Name: AI Product Description Generator <br/>
-Live demo hosted on Netlify.
+<a href="https://aiproductdescriptiongeneratorls.netlify.app" target="_blank">Live demo</a> hosted on Netlify.
 
 # Overview
 
